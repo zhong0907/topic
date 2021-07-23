@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>天氣穿衣登入頁</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div>
+            <header>
+                <table width="380" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="80" height="100" align-items="center" valign="middle"><span style="color: #FFFFFF"><img src="僅圖示logo.jpg" width="95" height="100" alt=""/></span></td>
+                    <td class="header.center"> <p> 天氣穿衣</p><p>Weather Dressing</p></td>
+                    <td width="100" height="100" valign="middle" bgcolor="#498EAF"><a href="login.html">登入</a></td>
+                </tr>
+                </table>
+            </header>
+        </div>
+        <div class="center">
+            <form class="login">
+                <h2>會員登入</h2>
+                <input type="text" placeholder="帳號" />
+                <input type="password" placeholder="密碼" />
+                <input type="submit" value="登入"/>
+                <br>
+                <p>尚未成為會員嗎？</p>
+                <a href="register.html">創立新帳號</a>
+            </form>
+        </div>
+        <div>
+            <footer>
+                
+            </footer>
+        </div>
+    </body>
+</html>
