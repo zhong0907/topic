@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>溫度穿搭上傳網頁</title>
+    <link rel="stylesheet" href="stylew3.css" />
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'></link>
+  </head>
+  <body>
+      <div>
+        <header>
+            <table width="380" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="80" height="100" align-items="center" valign="middle"><span style="color: #FFFFFF"><img src="僅圖示logo.jpg" width="95" height="100" alt=""/></span></td>
+                <td class="header.center"> <p> 天氣穿衣</p><p>Weather Dressing</p></td>
+                <td width="100" height="100" valign="middle" bgcolor="#498EAF"><a href="login.html">登入</a></td>
+            </tr>
+            </table>
+        </header>
+      </div>
+      <div class="center">
+        <form class = "upload" action="signup" method="post">
+            <h2><n></n>上傳你的天氣穿搭吧</n></h2>
+            <p>提供圖片等同授權天氣穿衣團隊使用該圖片，此圖片露出版面為weather_dressing 官方instergram、Line@、網頁。且以下圖方式呈現。<u>輸入你想分享的天氣穿搭資訊吧</u></p>
+            <p Align=center><img src="範例圖.jpg"width="250px"height="250px"></p>
+            <br>
+            <input type="text" name="user" size="10" placeholder="照片溫度(攝氏)"/>
+            <input type="text" name="user" size="10" placeholder="拍攝地點"/>
+            <label class="btn-info">
+              <input name="picture" style="display: none;" type="file"/>
+              <i class="fa fa-photo"></i> 上傳圖片
+            </label>
+            <input type="submit" value="送出"/><input type="reset" value="清除"/>
+        </form>
+      </div>
+      <div>
+        <footer>
+
+        </footer>
+      </div>
+  </body>
+</html>
