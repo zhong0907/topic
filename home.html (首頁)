@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>首頁</title>
+    <link rel="stylesheet" href="stylehome.css" />
+</head>
+
+<body>
+    <div>
+        <header>
+            <table width="380" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="80" height="100" align-items="center" valign="middle"><span style="color: #FFFFFF"><img
+                                src="僅圖示logo.jpg" width="95" height="100" alt="" /></span></td>
+                    <td class="header.center">
+                        <p> 天氣穿衣</p>
+                        <p>Weather Dressing</p>
+                    </td>
+                    <td width="100" height="100" valign="middle" bgcolor="#498EAF"><a href="login.html">登入</a></td>
+                </tr>
+            </table>
+        </header>
+    </div>
+    <div class="center">
+        <br>
+        <br>
+        <br>
+
+        <div class="btn1">
+            <a href="login.html">查看天氣/穿搭</a>
+        </div>
+        <br>
+        <br>
+        <div class="btn1">
+            <a href="W3.html">穿搭照投稿</a>
+        </div>
+        <br>
+        <br>
+        <div class="btn1">
+            <a
+                href="https://liff.line.me/1645278921-kWRPP32q?accountId=300zikjb&openerPlatform=native&openerKey=unifiedSearch#mst_challenge=z6euuL4Q645rO3DBMcyvS6PGOEqvwf_QdKuoToo8o0w">Line@</a>
+        </div>
+        <br>
+        <br>
+        <div class="btn1">
+            <a herf="https://www.instagram.com/weather_dressing/">Instagram</a>
+        </div>
+    </div>
+    <div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
