@@ -1,0 +1,207 @@
+header {
+  color: white;
+  background-color: #344955;
+  height: 100px;
+  width: 380px;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.center {
+    color: white;
+    background-color: #4a6572;
+    height: 670px;
+    width: 380px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.header.center{
+  width: 200;
+  height: 100;
+  background-color: #344955;
+  color: #fff;
+  text-align: center;
+}
+table{
+  color: #fff;
+  text-align: center;
+  font-weight:bolder;
+}
+
+a{
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight:bolder;
+}
+
+a:hover{
+  color: #f9aa33;
+}
+
+.box { 
+  font-family: 微軟正黑體; 
+  font-size:16px; 
+  height: 100px;
+  padding: 9px;
+  width: 300px;
+  text-align:center;
+  border: collapse #793232;
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+} 
+.box th { 
+  background-color: #776f6f;
+  padding:5px;
+  color:rgb(148, 162, 224);
+} 
+.box td { 
+  border:solid;
+  padding:10px;
+}
+
+.button1{
+    color: #f8f9fa;
+    padding: 40px;
+    box-shadow: 10px 10px 25px #00000000;
+    text-align: center;
+    margin: 0 auto;
+    height: 5px;
+    width: 5px;
+    transform: translate(-70%, -70%) 
+
+}
+.button1 input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: #f8f9fa;
+}
+
+.button1 input[type="submit"]{
+    width: 120px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+.button1 input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+.information{
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.angel{
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.turnback{
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.buttonho{
+    color: #f8f9fa;
+    padding: 40px;
+    box-shadow: 10px 10px 25px #00000000;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    transform: translate(-10%, -30%) 
+
+}
+.buttonho input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: #f8f9fa;
+}
+
+.buttonho input[type="submit"]{
+    width: 120px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+.buttonho input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+.box2 {
+   text-align: center;
+ }
+ .a, .b {
+   display: inline-block;
+   width: 100px;
+   height: 10px;
+   border: 10px solid #4a6572;
+   text-align: center;
+   transform: translate(+1%, -200%) 
+
+ }
+
+ .button2{
+
+    color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    height: 5px;
+    width: 5px;
+    transform: translate(-75%, -100%) 
+
+}
+.button2 input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: #f8f9fa;
+}
+
+.button2 input[type="submit"]{
+    width: 120px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+.button2 input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+footer {
+    color: white;
+    background-color: #f9aa33;
+    height: 66px;
+    width: 380px;
+    margin: 0 auto;
+    padding: auto;
+    transform: translate(+0%, -155%) 
+
+}
