@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>溫度穿搭上傳網頁</title>
-    <link rel="stylesheet" href="stylew3.css" />
+    <link rel="stylesheet" href="W3.css" />
     <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'></link>
+
   </head>
   <body>
       <div>
@@ -19,18 +20,23 @@
         </header>
       </div>
       <div class="center">
-        <form class = "upload" action="signup" method="post">
+        <form class = "upload" id='upload' action="signup" method="post">
             <h2><n></n>上傳你的天氣穿搭吧</n></h2>
             <p>提供圖片等同授權天氣穿衣團隊使用該圖片，此圖片露出版面為weather_dressing 官方instergram、Line@、網頁。且以下圖方式呈現。<u>輸入你想分享的天氣穿搭資訊吧</u></p>
             <p Align=center><img src="範例圖.jpg"width="250px"height="250px"></p>
             <br>
-            <input type="text" name="user" size="10" placeholder="照片溫度(攝氏)"/>
-            <input type="text" name="user" size="10" placeholder="拍攝地點"/>
-            <label class="btn-info">
-              <input name="picture" style="display: none;" type="file"/>
-              <i class="fa fa-photo"></i> 上傳圖片
+            <label for="testInput">
+            <input type="text" id='tmper' name="user" size="10" placeholder="照片溫度(攝氏)"/>
+            
+            <input type="text" id= 'locat' name="user" size="10" placeholder="拍攝地點"/>
             </label>
-            <input type="submit" value="送出"/><input type="reset" value="清除"/>
+            <label class="btn-info">
+            
+              <input name="picture" id='imglnp' style="display: none;" type="file"/>
+              <i class="fa fa-photo"></i> 上傳圖片
+            
+            </label>
+            <input type="submit" id='sendOut' value="送出" data-action ="submit"/><input type="reset" id='clearUp' value="清除" data-action ="reset"/>
         </form>
       </div>
       <div>
@@ -39,4 +45,7 @@
         </footer>
       </div>
   </body>
+  <body>
+    <script scr ="W3.js"></script>
+</body>
 </html>
