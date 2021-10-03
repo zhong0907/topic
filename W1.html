@@ -22,17 +22,18 @@
                 <form class="select">
                   <label for="select">地區 &nbsp;</label>
                   <div role="tw-city-selector"></div>
-                  <select id="city-list" onchange="changeCity(this.selectedIndex)"></select>
-                  <select id="sector-list"></select>
-                 
-            
+                  <select  id="city-list" onchange="changeCity(this.selectedIndex)"></select>
+                  <select  id="sector-list"></select>
+                  <script src="./server.js"></script>
                 <script type="text/javascript">
                     var citys=['選擇縣市','基隆市','臺北市','新北市','桃園市','新竹市','新竹縣','苗栗縣','臺中市','彰化縣','南投縣','雲林縣','嘉義市','嘉義縣','臺南市','高雄市','屏東縣','臺東縣','花蓮縣','宜蘭縣','澎湖縣','金門縣','連江縣'];
+                
                     var citySelect=document.getElementById("city-list");
                     var inner="";
                     for(var i=0;i<citys.length;i++){
-                    inner=inner+'<option value=i>'+citys[i]+'</option>';
+                    inner=inner+`<option value=${citys[i]}>`+citys[i]+'</option>';
                     }
+                
                     citySelect.innerHTML=inner;
           
                     var sectors=new Array();
@@ -68,11 +69,12 @@
                         sectorSelect.innerHTML=Sinner;
                     }
                     changeCity(document.getElementById("city-list").selectedIndex);
+                
                 </script>
 
             <div class="go">
-                <label for="select3">出門目的&nbsp;</label>
-                <select name="select3" id="select3">
+                <label for="go">出門目的&nbsp;</label>
+                <select name="go" id="go">
                   <option>請選擇</option>
                   <option>學校</option>
                   <option>公司</option>
@@ -81,7 +83,7 @@
                 
             </div>
             <div class="sub">
-                <input type="submit" value="查看天氣及穿搭"/>
+                <input type="submit"  id="result" value="查看天氣及穿搭"/>
             </div>
         </form>
         </div>
@@ -91,5 +93,7 @@
             </footer>
         </div>
    </body>
+<body>
+    <script scr ="server.js"></script>
+</body>
 </html>
-
