@@ -27,7 +27,7 @@
 
 
     <div class="center">
-        <div class="box">
+        <div class="box">   <!--表格中顯示使用者在W1選擇的條件-->
             <table>
                 <thead>
                     <tr>
@@ -45,41 +45,53 @@
                 </tbody></table>
         </div>
         
-        <div class="button1">
+        <div class="button1">   <!--回到W1-->
             <input type="submit" id="resetlocat" value="重新選擇" />
           </div>
   
 
-        <div class="information">
+        <div class="information">   <!--文字為天氣資訊 向左對齊-->
             <tr>
-                <td> 天氣資訊 </td>
+                <td id="information" p ="left"> 天氣資訊 </br>溫度:___</br>降雨機率:__%</br>最高最低溫:___</td>
+
+    
                 <td><map name="primary">
                         <area shape="circle" coords="75,75,75" href="left.html" alt="Click to go Left">
                         <area shape="circle" coords="275,75,75" href="right.html" alt="Click to go Right"></map>
-                    <img usemap="#primary" src="https://via.placeholder.com/200x200" alt="2000 x 200 pic">
+                    <img usemap="#primary" src="https://via.placeholder.com/150x150" alt="2000 x 200 pic">
         </div>
         </td>
         </tr>
 
+        <div class="center">    <!--切換手繪、真人穿衣照片按鈕-->
+            <div class="switch_photo">
+            <input type="checkbox" name="switch_photo" class="switch_photo-checkbox" id="switch_photo" checked>
+            <label class="switch_photo-label" for="switch_photo">
+            <span class="switch_photo-inner"></span>
+            <span class="switch_photo-switch"></span>
+            </label>
+            </div>
+            </div>
+            
         <div class="angel">
-            <p>小天使叮嚀</p>
+            <p>小天使叮嚀</p> <!--依照天氣放上相對的小天使圖片-->
             <p Align=center><img src="範例.jpg" width="100px" height="100px"></p>
         </div>
    
            
-        <div class="buttonho">
+        <div class="buttonho">   <!--按下按鈕後回到首頁-->
             <input type="submit" id='gohome' value="回首頁" data-action ="submit"/>
           </div>
        </div>
 
         <div class='box2'>
             <div class='a'>
-                 <div class="button2">
+                 <div class="button2">  <!--按鈕中放上Line聯結-->
                     <input type="submit" id='line' value="Line機器人" data-action ="submit"/>
                  </div>
             </div>
 
-           <div class='b'>
+           <div class='b'>  <!--按鈕中放上IG聯結-->
                <div class="button2">
                 <input type="submit" id='ig' value="IG社群" data-action ="submit"/>
                </div>
