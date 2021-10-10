@@ -95,6 +95,74 @@ a:hover{
     background-color: #2ecc71;
 }
 
+.switch_photo {
+  position: relative;
+  width: 100px;
+  transform: translate(+190%, +15%)
+  }
+  .switch_photo-checkbox {
+  display: none;
+  }
+  .switch_photo-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  }
+  .switch_photo-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+  }
+  .switch_photo-inner:before,
+  .switch_photo-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  }
+  .switch_photo-inner:before {
+  content: "手繪穿搭";
+  padding-left: 10px;
+  background-color: #34A7C1;
+  color: #FFFFFF;
+  }
+  .switch_photo-inner:after {
+  content: "真人穿搭";
+  padding-right: 10px;
+  background-color: #EEEEEE;
+  color: #999999;
+  text-align: right;
+  }
+  .switch_photo-switch {
+  display: block;
+  width: 18px;
+  margin: 6px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: px;
+  border: 2px solid #999999;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+  }
+  .switch_photo-checkbox:checked + .switch_photo-label .switch_photo-inner {
+  margin-left: 0;
+  }
+  .switch_photo-checkbox:checked + .switch_photo-label .switch_photo-switch {
+  right: 0px;
+  }
+
 .information{
   display:flex;
   justify-content: center;
@@ -105,6 +173,7 @@ a:hover{
   display:flex;
   justify-content: center;
   margin: 0 auto;
+  transform: translate(+0%, -460%)
 }
 
 
@@ -122,7 +191,7 @@ a:hover{
     margin: 0 auto;
     height: 100px;
     width: 100px;
-    transform: translate(-10%, -30%) 
+    transform: translate(-10%,-380%) 
 
 }
 .buttonho input{
